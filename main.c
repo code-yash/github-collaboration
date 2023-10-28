@@ -1,15 +1,15 @@
 /*--------------------HEADER FILES-----------------*/
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
-#include<math.h>
-#include<time.h>
-#include<stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
+#include <time.h>
+#include <stdbool.h>
 
 /*--------------------MAIN FUNCTION-----------------*/
 int main(void)
 {
-  char ans='y';
+  char ans = 'y';
   do
   {
     printf("\n\n ----ENCRPYTION-DECRYPTION---- ");
@@ -20,18 +20,17 @@ int main(void)
     printf("\n 5. ElGamal Cipher ");
 
     int c;
+    char ch;
     printf("\n\n Enter your Choice : ");
-    scanf("%d",&c);
+    scanf("%d", &c);
 
     /* Code Implementation Here */
 
     printf("\n\n Do you wish to continue? (Y/N) : ");
-    ch=getchar();
-    scanf("%c",&ans);
+    ch = getchar();
+    scanf("%c", &ans);
 
-  }while(ans == 'y' || ans=='Y');
+  } while (ans == 'y' || ans == 'Y');
 
-return 0;
+  return 0;
 }
-
-
