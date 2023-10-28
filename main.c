@@ -6,6 +6,12 @@
 #include <time.h>
 #include <stdbool.h>
 
+/*--------------------LINKING FUNCTIONS-----------------*/
+char* caesarCipher(char*,int,int);
+char* encoder(char*);
+char* cipheredIt(char*,char*);
+char* decipheredIt(char*, char*);
+
 /*--------------------MAIN FUNCTION-----------------*/
 int main(void)
 {
