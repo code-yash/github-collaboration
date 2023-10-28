@@ -7,10 +7,12 @@
 #include <stdbool.h>
 
 /*--------------------LINKING FUNCTIONS-----------------*/
-char* caesarCipher(char*,int,int);
-char* encoder(char*);
-char* cipheredIt(char*,char*);
-char* decipheredIt(char*, char*);
+char *caesarCipher(char *, int, int);
+char *encoder(char *);
+char *cipheredIt(char *, char *);
+char *decipheredIt(char *, char *);
+bool encryptByPlayfairCipher(char str[], char key[], char *lastchar);
+void decryptByPlayfairCipher(char str[], char key[], bool odd, char lastchar);
 
 /*--------------------MAIN FUNCTION-----------------*/
 int main(void)
