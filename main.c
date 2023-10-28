@@ -6,6 +6,9 @@
 #include<time.h>
 #include<stdbool.h>
 
+/*--------------------LINKING FUNCTIONS-----------------*/
+char* caesarCipher(char*,int,int);
+
 /*--------------------MAIN FUNCTION-----------------*/
 int main(void)
 {
