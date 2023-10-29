@@ -1,6 +1,6 @@
 # GitHub Collaboration - College Assignment
 
-## Description - [Replit Project Link](https://replit.com/@code-yash/CipherTechniques)
+## Description - [Replit Project Link](https://replit.com/@code-yash/CipherTechniques-Github-Collaboration-Project)
 
 This repository is part of a college assignment related to GitHub collaboration. It contains code for various encryption and decryption algorithms and a main program that allows you to interact with these algorithms.
 
