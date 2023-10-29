@@ -13,6 +13,8 @@ char *cipheredIt(char *, char *);
 char *decipheredIt(char *, char *);
 bool encryptByPlayfairCipher(char str[], char key[], char *lastchar);
 void decryptByPlayfairCipher(char str[], char key[], bool odd, char lastchar);
+int *encryptElGamal(char *, int, int, int);
+int *decryptElGamal(int *, int, int, int, int);
 
 /*--------------------MAIN FUNCTION-----------------*/
 int main(void)
