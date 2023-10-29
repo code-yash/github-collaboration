@@ -23,7 +23,6 @@ int gcd(int a, int b)
 // Generating large random numbers
 int gen_key(int q)
 {
-
   int key = (rand() % (int)(15 - 5 + 1)) + 5;
 
   while (gcd(q, key) != 1)
